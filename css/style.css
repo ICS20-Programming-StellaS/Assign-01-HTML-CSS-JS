@@ -1,8 +1,22 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="My First Web Page, with JavaScript">
-    <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+/* Created by: Stella S
+ * Created on: March. 2022
+ * This CSS file defines the style for index.html 
+*/
+
+body {
+  background-color: MintCream;
+}
+
+h1 {
+  color: hsl(0, 0%, 96%);
+  padding: 10px;
+}
+
+p {
+  color: hsl(0, 0%, 0%);
+  padding: 20px;
+}
+
+img {
+  padding: 10px;
+}
