@@ -2,3 +2,12 @@
  * Created on: March. 2022
  * This CSS file defines the style for index.html 
 */
+
+h4 {
+  padding: 10px;
+}
+
+table {
+  padding: 20px;
+}
+

@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 		<!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/favicon_ios/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon_ios/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon_ios/favicon-16x16.png">
-      <link rel="manifest" href="./fav_index/favicon_ios/site.webmanifest">
+      <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+      <link rel="manifest" href="./fav_index/site.webmanifest">
 
     <!-- Favicon -->
       <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
@@ -26,6 +26,7 @@
       <title>Global Refugee Crisis-What can you do?</title>
   </head>
   <body>
+    
     <!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
       <div class="mdl-layout mdl-js-layout">
       <header class="mdl-layout__header mdl-layout__header--scroll">
@@ -49,38 +50,55 @@
   </main>
 </div>
     <center><h4 style="font-family:verdana;">Places That Need Help</h4></center>
-    <center><h5 style="color:red;">Around the world there are thousands of refugees adn thousands displaced. Here are just some examples of places that need YOUR help.</h5></center>
+    <center><h5 style="color:red;">Around the world there are thousands of refugees and millions displaced. Here are just some examples of places that need YOUR help.</h5></center>
+          
     <!-- Table -->
      <center><table border="2"></center>
       <tr>
-        <th>Place</th>
+        <h1><th>Place</th></h1>
         <th>Why</th>
-        <th>Number of refugee/displaced</th>
+        <th>Number of people who are displaced</th>
       </tr>
       <tr>
         <td>Yemen</td>
-        <td></td>
-        <td></td>
+        <td>One of the main reasons causing those in Yemen to become displaced is the uprising violence there. 
+        <div>Imagine living somehwere where you fear for your life every single day due to violence. Imagine leaving eveything just to find somewhere "safer" then where you already know. This is something thousands of women, men and children in Yemen face on a daily basis.</div></td>
+        <td>It is estimated that there are more then 4 Million people who are internally displaced in Yemen.  </td>
       <tr>
         <td>Afghanistan</td>
-        <td></td>
-        <td></td>
+        <td>some of the main causes leading those to flee and seek safety somehwhere else is due to the violence, the country's finacial crisis and restrictions put in place by the Taliban.</td>
+        <td>In Afghanistan there is approximently 3 million people who are interanlly displaced.</td>
       </tr>
-      <tr>
-        <td>Somalia</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
         <td>Iraq</td>
-        <td></td>
-        <td></td>
+        <td>the main causes causing people to become displaced is the uprise is violence, armed conflict and disaters. 
+        <div>As well as closures to camps housing IDP's (interanlly displaced persons) has led to them becoming diplaced with nowhere to go.</div></td>
+        <td>There is an estimated 1.2 Million or more, Iraqis internally displaced.</td>
       </tr>
       <tr>
         <td>Syria</td>
-        <td></td>
-        <td></td>
+        <td>The main cause is the civial war through out Syria and the uprising violence.</td>
+        <td>In Syria there could be as many as 13.5 Million people displaced. 
+        <div>That is more then three quaters of the population here in Ontario. Ontario has a population of 14 Million</div></td>
       </tr>
     </table>
+      <p>Press the smiley button</p>
+          
+  <!-- Button Alert -->
+    <script>
+    function myButtonClicked() {
+      alert("Please think of all the thousands and milions of women, men and children facing things so unimaginable to us here in Canada. Like war, violence, armed weapons, chosing (not really) to be displaced in hopes of a better life and constanly fearing for your life. To us it's something that we don't even think about, yet to someone like you, it's their reality. Please keep them in your thoughts and prayers.")
+      }
+  </script>
+          
+  <!-- Colored icon button -->
+    <center><button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+    <i class="material-icons">mood</i>
+    </button></center>
+
+     <center><h4 style="font-family:verdana;">1. Yemen - 2. Afghanistan - 3. Iraq - 4. Syria</h2></center>
+    <img src="./images/yemen_flag.png"width"200" height="200"</img>
+    <img src="./images/flag_Afghanistan.jpg"width"200" height="200"</img>
+    <img src="./images/flag_Iraq.png"width"200" height="200"</img>
+    <img src="./images/flag_Syria.png"width"200" height="200"</img>
 </body>
 </html>
