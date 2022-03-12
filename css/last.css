@@ -18,11 +18,7 @@ h5 {
 }
 
 p {
-  background-color: #DCDCDC;
-  color: hsl(0, 0%, 0%);
+  background-color: #708090	;
+  color: hsl(0, 0%, 100%);
   text-align: center;
-}
-
-label {
-  background-color: #DCDCDC;
 }
